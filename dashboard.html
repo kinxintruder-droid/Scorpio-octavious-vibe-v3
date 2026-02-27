@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="./firebase-config.js"></script>
+  <script src="./main.js"></script>
+  <style>
+    body{background:black;color:white;text-align:center;padding-top:50px;font-family:Arial;}
+    a{display:block;color:#4da6ff;margin:10px;}
+    button{padding:10px;margin-top:20px;background:#0077ff;color:white;border:none;border-radius:6px;cursor:pointer;}
+  </style>
+</head>
+<body>
+  <h2>Welcome to Scorpio Octavious Vibe 👑🔥</h2>
+  <a href="wallet.html">Wallet</a>
+  <a href="boost.html">Boost</a>
+  <a href="profile.html">Profile</a>
+  <a href="admin.html">Admin Panel</a>
+  <button onclick="logout()">Logout</button>
+</body>
+</html>
